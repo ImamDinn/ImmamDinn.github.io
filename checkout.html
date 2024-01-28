@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Box icons -->
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!-- logo tab -->
+  <link rel="shortcut icon" href="assets/logo-tabb.png" type="image/x-icon">
+
+  <!-- style -->
+  <link rel="stylesheet" href="CSS/checkout.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <title>Coffeee.in Checkout</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="icon-back">
+        <a href="products.html"><i class="bx bx-arrow-back"></i></a>
+      </div>
+      <h1 class="title-checkout">Checkout</h1>
+      <br>
+      <hr>
+    </div>
+  </header>
+  </section>
+  <!-- card -->
+  </div>
+  </div>
+
+  <!-- Form Data User -->
+  <div class="col-dataUser">
+    <div class="containercheckout">
+      <div class="rowcheckout">
+        <form class="col-payment">
+          <div>
+            <h3>ADDRESS</h3>
+            <br />
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your Name">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Enter Your Address">
+          </div>
+        </form>
+
+        <!-- Payment method -->
+        <div class="col-payment">
+          <h3>PAYMENT</h3>
+          <br>
+          <label class="labelpayment" for="transferbank">Bank transfer</label>
+          <select class="dropdown" name="transferbank" id="transferbank">
+            <option value="" selected="selected">Select Bank</option>
+            <option value="BCA">Bank BCA</option>
+            <option value="BRI">Bank BRI</option>
+            <option value="BSI">Bank Syariah Indonesia (BSI)</option>
+            <option value="Mandiri">Bank Mandiri</option>
+            <option value="BNI">Bank BNI</option>
+          </select>
+          <br>
+          <br>
+
+          <div class="col-expedition">
+            <br>
+            <h3>EXPEDITION</h3>
+            <br>
+            <label class="labelpayment" for="expedition">Choose Expedition</label>
+            <select class="dropdown" name="expedition" id="expedition">
+              <option value="" selected="selected">Select Expedition</option>
+              <option value="JNT">JNT Express</option>
+              <option value="JNE">JNE Express</option>
+              <option value="SiCepat">SiCepat Express</option>
+              <option value="NinjaXpress">Ninja Xpress</option>
+            </select>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <input type="submit" value="Checkout" class="btn">
+    </div>
+  </div>
+
+
+  <script src="JS/checkout.js"></script>
+  <script src="JS/products.js"></script>
+  <script src="JS/script.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Hot_Matcha_Latte.jpg",
+      "name": "Hot Matcha Latte",
+      "price": 39000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Cappucino Coffee.jpg",
+      "name": "Cappucino Coffee",
+      "price": 39000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Shakerato_Italian_Coffe.jpg",
+      "name": "Shakerato Coffee",
+      "price": 45000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Hazelnut_Bianco_Latte.jpg",
+      "name": "Hazelnut Bianco Latte",
+      "price": 40000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Mugwort_Latte.jpg",
+      "name": "Mugwort Latte",
+      "price": 30000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Vanilla_Latte_White.jpg",
+      "name": "Vanilla Latte White",
+      "price": 50000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Misto_Coffee_With_Milk.jpg",
+      "name": "Misto Coffee With Milk",
+      "price": 37000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Hot_Caramel.jpg",
+      "name": "Hot Caramel",
+      "price": 42000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Long_Black_Coffe.jpg",
+      "name": "Long Black Coffee",
+      "price": 40000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Espresso_Coffe.jpg",
+      "name": "Espresso Coffee",
+      "price": 35000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Cinnamon_Dolce_Latte.jpg",
+      "name": "Cinnamon Dolce Latte",
+      "price": 37000
+    },
+    {
+      "category": "hot",
+      "imageSrc": "assets/Products/hot_Honey_Almonmilk.jpg",
+      "name": "Honey Almonmilk",
+      "price": 48000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Strawberry_Creamy_Frappucino.png",
+      "name": "Strawberry Frappucino",
+      "price": 40000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Pisvocado_Frappucino.png",
+      "name": "Pisvocado Frappucino",
+      "price": 30000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Matcha_Frappucino.png",
+      "name": "Matcha Frappucino",
+      "price": 31000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Vanilla_Frappucino.png",
+      "name": "Vanilla Frappucino",
+      "price": 49000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Iced_Peppermint_Mocha.png",
+      "name": "Pappermint Mocha",
+      "price": 48000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Lotus_Coffeelatte.png",
+      "name": "Lotus Coffee Latte",
+      "price": 45000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Java_Chip_Frappucino.png",
+      "name": "Java Chip Frappucino",
+      "price": 45000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Con_Panna.jpg",
+      "name": "Con Panna",
+      "price": 42000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Iced_Espresso.png",
+      "name": "Iced Espresso",
+      "price": 48000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Glace_Coffee.png",
+      "name": "Glace Coffee",
+      "price": 45000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Black Sesame Frappucino.png",
+      "name": "Black Sesame",
+      "price": 40000
+    },
+    {
+      "category": "cold",
+      "imageSrc": "assets/Products/cold_Classic Afogato.png",
+      "name": "Affogato Classic",
+      "price": 34000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_guatemala.png",
+      "name": "Guatemala Coffee",
+      "price": 60000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_rwanda.png",
+      "name": "Rwanda Coffee",
+      "price": 60000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_nicaragua.png",
+      "name": "Nicaragua Coffee",
+      "price": 60000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_coffeein.png",
+      "name": "Coffee.in Coffee",
+      "price": 50000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_espresso.jpeg",
+      "name": "Espresso Coffee",
+      "price": 55000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_cappucino.jpeg",
+      "name": "Cappucino Coffee",
+      "price": 45000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_latte.png",
+      "name": "Latte Coffee",
+      "price": 58000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_libreka.jpeg",
+      "name": "Liberika Coffee",
+      "price": 50000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_arabica.jpeg",
+      "name": "Arabica Coffee",
+      "price": 57000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_macciato.jpeg",
+      "name": "Macciato Coffee",
+      "price": 56000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_robusta.jpeg",
+      "name": "Robusta Coffee",
+      "price": 60000
+    },
+    {
+      "category": "powder",
+      "imageSrc": "assets/Products/powder_picolo.jpeg",
+      "name": "Picolo Coffee",
+      "price": 50000
+    }
+  ]
+}

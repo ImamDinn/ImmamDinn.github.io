@@ -1,0 +1,144 @@
+:root {
+    --primary: #1E463B;
+    --secondary: #3C806D;
+    --muda: #E2EDE9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', 'sans-Serif';
+    background-color: var(--muda);
+    color: var(--primary);
+}
+
+.login {
+    padding: 50px;
+}
+
+/* ===== */
+/* form */
+/* ===== */
+
+.icon-back a {
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 30px;
+    color: #1E463B;
+}
+
+.icon-back a i:hover {
+    color: white;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.form-container {
+    align-items: center;
+    background-color: var(--muda);
+    border-radius: 5px;
+    padding: 20px auto;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+form p a {
+    color: #1E463B;
+    font-weight: bolder;
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: var(--muda);
+}
+
+.redirect{
+    text-align: left;
+}
+
+/* Placeholder */
+.form-group input::placeholder {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary);
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--primary);
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #f1f5f3;
+    color: var(--primary);
+    font-weight: 300;
+    border: 2px solid #1e463b;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: var(--primary);
+    border: 1px solid #4af3b5;
+    color: var(--muda);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+    width: 30% auto;
+    float: left;
+}
+
+input[type="submit"]:hover {
+    background-color: #37a77d;
+}
+
+.redirect p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+}

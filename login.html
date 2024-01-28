@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- icon fontawesome-->
+    <script src="https://kit.fontawesome.com/cf76925589.js" crossorigin="anonymous"></script>
+
+    <!-- logo tab -->
+    <link rel="shortcut icon" href="assets/logo-tabb.png" type="image/x-icon">
+
+    <!-- box icon -->
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="CSS/login.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- login -->
+    <section class="login">
+        <div class="icon-back">
+            <a href="index.html"><i class="bx bx-arrow-back"></i></a>
+        </div>
+
+        <div class="sign-up">
+            <div class="form-container">
+                <h2>LOGIN</h2>
+                <form>
+                    <br> <br>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter your name" maxlength="15" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <br>
+                    <input type="submit" value="Login" class="btn" id="buttonLogin">
+
+                    <br> <br>
+                    <p class="redirect">New Customer? <a href="register.html">Create Account</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="JS/login.js"></script>
+</body>
+
+</html>

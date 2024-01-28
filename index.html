@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- icon fontawesome-->
+    <script src="https://kit.fontawesome.com/cf76925589.js" crossorigin="anonymous"></script>
+
+    <!-- box icon -->
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Fetaher icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- AOS (Animate On Scrool) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- logo tab -->
+    <link rel="shortcut icon" href="assets/logo-tabb.png" type="image/x-icon">
+
+    <!--style-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Coffee.in Home Page</title>
+</head>
+
+<body>
+    <!--NAVIGATION-->
+    <header class="navigationn">
+        <img class="logo" src="assets/logo_putih.png" alt="logo">
+
+        <nav class="navbar-menu">
+            <div class="navbar-toggle" id="navbar-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link" id="btn-active"><i data-feather="home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="nav-link"><i data-feather="info"></i>About Us</a>
+                </li>
+                <li>
+                    <a href="products.html" class="nav-link"><i data-feather="shopping-bag"></i> Products</a>
+                </li>
+                <li>
+                    <a href="stores.html" class="nav-link"><i data-feather="map-pin"></i>Stores</a>
+                </li>
+                <li class="account-bar">
+                    <a href="login.html" class="nav-link"><i data-feather="user"></i>Account</a>
+                </li>
+                <div class="btn-navbar1">
+                    <a id="logoutButton" class="logout-button1" href="#">
+                        <i data-feather="log-out"></i> Log-Out
+                    </a>
+                </div>
+            </ul>
+        </nav>
+        <!-- menu account sebelum responsive -->
+        <div class="btn-navbar">
+            <a href="login.html">
+                <button class="loginnn" type="button">
+                    <i class='bx bxs-user-circle'></i> Login
+                </button>
+            </a>
+
+            <a id="logoutButton" class="logout-button" href="#">
+                <i data-feather="log-out"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Video -->
+    <section class="video_opening">
+        <div class="video-wrapper">
+            <video autoplay loop muted>
+                <source src="assets/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+        <div class="row">
+            <div class="about-img" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200">
+                <img src="assets/Home_About.png" alt="About Us" />
+            </div>
+            <div class="content">
+                <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">Hello Customer</h3>
+                <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                    Welcome to coffee.in, where every cup tells a story. Our journey
+                    began with a simple idea: to create a space where people could
+                    escape the hustle of everyday life and savor the finest flavors of
+                    meticulously crafted coffee
+                </p>
+                <a href="about-us.html">Learn More>></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- SUPERIORITY -->
+    <section>
+        <div class="superiority">
+            <!-- judul -->
+            <div class="container">
+                <div class="line line-left" data-aos="fade-up" data-aos-duration="2000"></div>
+                <div class="text">SUPERIORITY</div>
+                <div class="line line-right" data-aos="fade-up" data-aos-duration="2000"></div>
+            </div>
+
+            <div class="container-superiority">
+                <div class="point" data-aos="fade-down" data-aos-duration="1000">
+                    <i class='bx bxs-coffee-bean'></i>
+                    <h2>Best Quality</h2>
+                    <p>We serve the best coffee with high quality coffee beans from all over the world. Enjoy unmatched
+                        taste every day.</p>
+                </div>
+                <div class="point" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h2>Cozy Atmosphere</h2>
+                    <p>We have a comfortable and warm environment for you to enjoy with friends and family. Try our
+                        lounge seating!</p>
+                </div>
+                <div class="point" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+                    <i class="fa-solid fa-bell-concierge"></i>
+                    <h2>Excellent service</h2>
+                    <p>Our staff is always ready to serve you with a friendly smile. Your order will be processed
+                        quickly and precisely.</p>
+                </div>
+                <div class="point" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
+                    <i class="fa-solid fa-champagne-glasses"></i>
+                    <h2>Diverse Menu</h2>
+                    <p>We have a varied menu, including various types of coffee, tea and delicious snacks. There is
+                        something for all tastes.</p>
+                </div>
+                <div class="point" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h2>Expertise Barista</h2>
+                    <p>Made by talented brewers who prioritize quality in every coffee served. You can be sure that
+                        every visit you make will be a special coffee experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="about-us.html">about us</a></li>
+                        <li><a href="stores.html">our store</a></li>
+                        <li><a href="about-us.html">Company Founder</a></li>
+                        <li><a href="about-us.html">company legality</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Store Products</h4>
+                    <ul>
+                        <li><a href="products.html">hot coffee</a></li>
+                        <li><a href="products.html">cold coffee</a></li>
+                        <li><a href="products.html">powder coffee</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61551765980563"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Coffeein_2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/coffeein_2?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer End -->
+
+    <script src="JS/script.js"></script>
+    <script src="JS/login-logout.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        feather.replace();
+    </script>
+
+
+</body>
+
+</html>

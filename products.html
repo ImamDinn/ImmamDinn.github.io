@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- icon fontawesome-->
+    <script src="https://kit.fontawesome.com/cf76925589.js" crossorigin="anonymous"></script>
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- box icon -->
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- logo tab -->
+    <link rel="shortcut icon" href="assets/logo-tabb.png" type="image/x-icon">
+
+    <!--style-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/products.css">
+    <link rel="stylesheet" href="CSS/login.css">
+
+    <title>Coffee.in Products</title>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navigationn">
+        <img class="logo" src="assets/logo_putih.png" alt="logo">
+
+        <nav class="navbar-menu">
+            <div class="navbar-toggle" id="navbar-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link"><i data-feather="home"></i> Home</a></li>
+                <li><a href="about-us.html" class="nav-link"><i data-feather="info"></i>
+                        About Us</a></li>
+                <li><a href="products.html" class="nav-link" id="btn-active"><i data-feather="shopping-bag"></i>
+                        Products</a></li>
+                <li><a href="stores.html" class="nav-link"><i data-feather="map-pin"></i>
+                        Stores</a>
+                </li>
+                <li class="account-bar"><a href="login.html" class="nav-link"><i data-feather="user"></i>
+                        Account</a>
+                </li>
+                <div class="btn-navbar1">
+                    <a id="logoutButton" class="logout-button1" href="#">
+                        <i data-feather="log-out"></i> Log-Out
+                    </a>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- menu account sebelum responsive -->
+        <div class="btn-navbar">
+            <a href="login.html">
+                <button class="loginnn" type="button">
+                    <i class='bx bxs-user-circle'></i> Login
+                </button>
+            </a>
+
+            <a id="logoutButton" class="logout-button" href="#">
+                <i data-feather="log-out"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Autoslide -->
+    <section>
+        <div class="slides">
+            <div class="slide">
+                <img src="assets/slide1.png" alt="slide1">
+            </div>
+            <div class="slide">
+                <img src="assets/slide2.png" alt="slide2">
+            </div>
+            <div class="slide">
+                <img src="assets/slide3.png" alt="slide3">
+            </div>
+            <div class="slide">
+                <img src="assets/slide4.png" alt="slide4">
+            </div>
+            <div class="slide">
+                <img src="assets/slide5.png" alt="slide5">
+            </div>
+
+            <div class="manual-buttons">
+                <button class="prev-button" onclick="plusSlides(-1)">&#10094</button>
+                <button class="next-button" onclick="plusSlides(1)">&#10095</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Menus -->
+    <section class="products">
+        <!-- shopping cart -->
+        <div class="container-shoppping">
+            <!-- icon cart -->
+            <div class="shopping">
+                <h1>OUR MENUS</h1>
+                <img src="assets/shopping-cart.svg" alt="cart">
+                <span class="quantity">0</span>
+            </div>
+            <div class="list"></div>
+        </div>
+
+        <!-- card -->
+        <div class="card">
+            <h1>Shopping Cart</h1>
+            <ul class="cart-list"></ul>
+            <div class="checkout">
+                <div class="total" onclick="redirectToPage()">Rp. 0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+
+        <!-- Category Menu -->
+        <div class="categories-container">
+            <a href="" class="category-option active" data-category="all">ALL</a>
+            <a href="" class="category-option" data-category="hot">HOT COFFEE</a>
+            <a href="" class="category-option" data-category="cold">COLD COFFEE</a>
+            <a href="" class="category-option" data-category="powder">POWDER COFFEE</a>
+        </div>
+        <br> <br>
+
+        <!-- Menu -->
+        <div class="menu-item">
+            <!-- Looping Products.json -->
+        </div>
+
+        <script src="JS/script.js"></script>
+        <script src="JS/products.js"></script>
+        <script>
+            feather.replace();
+        </script>
+        <script src="JS/login-logout.js"></script>
+
+</body>
+
+</html>
